@@ -1,2 +1,84 @@
 /* CSS Reset by Eric Meyer */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+* {
+  box-sizing: border-box;
+}
+
+/* variables */
+:root {
+  --color-blue: #7797ae;
+  --color-red: #a84e54;
+}
+
+/* fontsettings */
+@font-face {
+  font-family: 'Glacial';
+  font-weight: 400;
+  src:  url('../assets/glacialindifference-regular-webfont.woff2') format('woff2'),
+        url('../assets/glacialindifference-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Glacial';
+  font-weight: 700;
+  src:  url('../assets/glacialindifference-bold-webfont.woff2') format('woff2'),
+        url('../assets/glacialindifference-bold-webfont.woff') format('woff');
+}
+
+/* typography */
+body {
+  font-family: "Glacial", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: none;
+  transition: color .3s;
+}
+
+a:hover {
+  color: var(--color-red);
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.2em;
+}
+
+h2 {
+  color: var(--color-blue);
+  font-size: 25px;
+  line-height: 1.2em;
+}
+
+/* layout */
+.article {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+  max-width: 800px;
+}
+
+h1 {
+  margin: 50px 0 25px 0;
+}
+
+h2 {
+  margin: 0 0 5px 0;
+}
+
+h3,
+p {
+  margin: 0 0 25px 0;
+}
