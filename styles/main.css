@@ -29,9 +29,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* typography */
 body {
   font-family: "Glacial", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 400;
-  line-height: 1.2em;
+  line-height: 1.3em;
 }
 
 a {
@@ -83,7 +83,7 @@ h2 {
   margin: 0 auto;
   padding: 0 40px;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 h1 {
